@@ -1,0 +1,66 @@
+body{
+	padding: 0 10px;
+}
+
+.content ul.navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.content ul.navigation a{
+	font-weight: 900 ;
+	font-size: 25px;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.pageheader , .controlButton{
+	border-top: 5px solid #007bff;
+	border-bottom: 5px solid #007bff;
+	text-align: center;
+	padding: 10px 0px;
+	margin-bottom:10px;
+	font-size: 25px;
+}
+#myForm2 .controlButton
+{
+	border-top: 0px solid #007bff;
+	border-bottom: 0px solid #007bff;
+	text-align: center;
+	padding: 10px 0px;
+	margin-bottom:10px;
+}
+#myForm2 .controlButton button
+{
+	 margin: 5px 10px;
+	 font-size: 25px;
+}
+
+#myForm .form-group{
+	
+	text-align: center;
+	display: flex;
+}
+#myForm input#formname{
+	width:80%;
+}
+#myForm .form-group div{
+	
+	text-align: center;
+	width:100%;
+	font-size:25px;
+}
+#myForm .form-group div.left {
+    text-align: right;
+    padding: 15px 20px;
+    width: 50%;
+}
+#myForm .form-group div.right {
+    text-align: left;
+    padding: 10px 20px;
+    width: 100%;
+}
